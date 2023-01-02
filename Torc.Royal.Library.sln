@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Api", "src\Torc.Royal.Library.Api\Torc.Royal.Library.Api.csproj", "{6A602054-0F97-4414-A5D3-450812D7E5F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Data", "src\Torc.Royal.Library.Data\Torc.Royal.Library.Data.csproj", "{A3961400-35B4-4C6B-9808-D638519B5B29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Domain", "src\Torc.Royal.Library.Domain\Torc.Royal.Library.Domain.csproj", "{4C54418C-80DF-4E81-AC2F-CF1B6345F45C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Application", "src\Torc.Royal.Library.Application\Torc.Royal.Library.Application.csproj", "{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torc.Royal.Library.IoC", "src\Torc.Royal.Library.IoC\Torc.Royal.Library.IoC.csproj", "{841B7B1B-5743-4107-AD17-FE5C56235AC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A602054-0F97-4414-A5D3-450812D7E5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A602054-0F97-4414-A5D3-450812D7E5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A602054-0F97-4414-A5D3-450812D7E5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A602054-0F97-4414-A5D3-450812D7E5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3961400-35B4-4C6B-9808-D638519B5B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3961400-35B4-4C6B-9808-D638519B5B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3961400-35B4-4C6B-9808-D638519B5B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3961400-35B4-4C6B-9808-D638519B5B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C54418C-80DF-4E81-AC2F-CF1B6345F45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C54418C-80DF-4E81-AC2F-CF1B6345F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C54418C-80DF-4E81-AC2F-CF1B6345F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C54418C-80DF-4E81-AC2F-CF1B6345F45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8347C2B0-6512-4FF0-B508-865E7E1A2B32}
+	EndGlobalSection
+EndGlobal
