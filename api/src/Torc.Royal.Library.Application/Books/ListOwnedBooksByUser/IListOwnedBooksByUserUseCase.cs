@@ -1,9 +1,9 @@
-﻿using Torc.Royal.Library.Domain;
+﻿using Torc.Royal.Library.CrossCutting;
 
 namespace Torc.Royal.Library.Application.Books
 {
     public interface IListOwnedBooksByUserUseCase
     {
-        Task<ApiResult<IEnumerable<Book>>> Execute(int userId);
+        Task<ApiResult<BooksListDTO>> Execute(int userId, int page, int items);
     }
 }

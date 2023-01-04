@@ -10,5 +10,7 @@
         public string Type { get; set; }
         public string ISBN { get; set; }
         public string Category { get; set; }
+        public string AvailableCopies => $"{TotalCopies - CopiesInUse}/{TotalCopies}";
+        public string Authors => $"{LastName}, {FirstName}";
     }
 }

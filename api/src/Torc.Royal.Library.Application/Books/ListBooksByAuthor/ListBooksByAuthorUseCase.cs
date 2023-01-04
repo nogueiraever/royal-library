@@ -1,9 +1,9 @@
-﻿using Torc.Royal.Library.Data;
-using Torc.Royal.Library.Domain;
+﻿using Torc.Royal.Library.CrossCutting;
+using Torc.Royal.Library.Data;
 
 namespace Torc.Royal.Library.Application.Books
 {
-    public class ListBooksByAuthorUseCase : UseCase<IEnumerable<Book>>, IListBooksByAuthorUseCase
+    public class ListBooksByAuthorUseCase : UseCase<BooksListDTO>, IListBooksByAuthorUseCase
     {
         private readonly IBookRepository bookRepository;
 
@@ -11,11 +11,13 @@ namespace Torc.Royal.Library.Application.Books
         {
             this.bookRepository = bookRepository ?? throw new ArgumentNullException(nameof(bookRepository));
         }
-        public async Task<ApiResult<IEnumerable<Book>>> Execute(string authorNameOrLastName)
+        public async Task<ApiResult<BooksListDTO>> Execute(string authorNameOrLastName, int page, int items)
         {
-            var books = await bookRepository.ListBooksByAuthor(authorNameOrLastName);
-            if (books is not null && books.Any())
-                return Success(books);
+            var booksDto = await bookRepository.ListBooksByAuthor(authorNameOrLastName, page, items);
+            if (booksDto is not null)
+            {
+                return Success(booksDto);
+            }
 
             return NotFound();
         }

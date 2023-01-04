@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Domain",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.Application", "src\Torc.Royal.Library.Application\Torc.Royal.Library.Application.csproj", "{C0F4A195-9FFD-4C8D-A7E0-90DB8549270A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torc.Royal.Library.IoC", "src\Torc.Royal.Library.IoC\Torc.Royal.Library.IoC.csproj", "{841B7B1B-5743-4107-AD17-FE5C56235AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torc.Royal.Library.IoC", "src\Torc.Royal.Library.IoC\Torc.Royal.Library.IoC.csproj", "{841B7B1B-5743-4107-AD17-FE5C56235AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torc.Library.Royal.CrossCutting", "src\Torc.Library.Royal.CrossCutting\Torc.Library.Royal.CrossCutting.csproj", "{680977CF-3E08-4432-BE45-0A286F05AE7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{841B7B1B-5743-4107-AD17-FE5C56235AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680977CF-3E08-4432-BE45-0A286F05AE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680977CF-3E08-4432-BE45-0A286F05AE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680977CF-3E08-4432-BE45-0A286F05AE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680977CF-3E08-4432-BE45-0A286F05AE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
